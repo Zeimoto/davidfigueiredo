@@ -1,0 +1,6 @@
+[submodule "portfolio/themes/coming-soon"]
+	path = portfolio/themes/coming-soon
+	url = https://github.com/mansoorbarri/coming-soon.git
+[submodule "portfolio/themes/glim-midnight"]
+	path = portfolio/themes/glim-midnight
+	url = https://github.com/mansoorbarri/glim-midnight.git
