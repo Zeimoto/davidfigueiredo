@@ -1,4 +1,6 @@
 <script setup></script>
 <template>
-    Projects!
+    <div id="projects" class="flex flex-col items-center justify-center">
+        Projects!
+    </div>
 </template>

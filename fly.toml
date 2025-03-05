@@ -1,0 +1,11 @@
+  Hostname                    = davidfigueiredo.pt
+  Configured                  = true
+  Issued                      =
+  Certificate Authority       = lets_encrypt
+  DNS Provider                = enom
+  DNS Validation Instructions =
+  DNS Validation Hostname     =
+  DNS Validation Target       = example.com.5xzw.flydns.net
+  Source                      = fly
+  Created At                  = 0001-01-01T00:00:00Z
+  Status                      =
