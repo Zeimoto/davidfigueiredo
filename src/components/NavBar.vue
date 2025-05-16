@@ -11,7 +11,6 @@
         </li>
         <li><a href="#about" class="transform transition delay-50 duration-150 ease-in-out hover:bg-gray-300/50 rounded-lg">about</a></li>
         <li><a href="#projects" class=" hover:bg-gray-300/50 hover:rounded-lg" active="#projects">projects</a></li>
-        <li><a href="#contacts" class=" hover:bg-gray-300/50 hover:rounded-lg">contacts</a></li>
         <li><a href="/cv.pdf" class=" hover:bg-gray-300/50 hover:rounded-lg">resume</a></li>
       </ul>
     </nav>

@@ -1,8 +1,12 @@
 <script setup></script>
 
 <template>
-  <div id="about" class="h-screen flex flex-col items-center justify-center">
+  <div id="about" class="h-screen flex flex-col items-center justify-center px-20">
     <h1 class="text-3xl">About Me</h1>
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    My name’s David and I’m a software developer based in Portugal.
+
+I’m reaching out to you to hopefully start a new connection, and to present to you my desire to work for your company. At the moment I’m looking for new job opportunities. Particularly working for roles using Python, in any role, or in a Full Stack position like I am now, with a bigger emphasis on backend. I won’t shy away from challenges to learn different programming languages or work in different frameworks either.
+    <br><br>
+
   </div>
 </template>

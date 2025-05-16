@@ -1,6 +1,17 @@
-<script setup></script>
+<script setup>
+
+defineProps({
+  project: {
+    type: Object,
+  },
+});
+</script>
 <template>
-    <div id="projects" class="flex flex-col items-center justify-center">
-        Projects!
+    <div class="h-screen flex flex-col items-center justify-center px-20">
+      <img :src="project.media" width="500px"/>
+    <h1 class="text-3xl">{{project.title}}</h1>
+      <span>
+      {{project.content}}
+      </span>
     </div>
 </template>

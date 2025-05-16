@@ -1,11 +1,22 @@
-  Hostname                    = davidfigueiredo.pt
-  Configured                  = true
-  Issued                      =
-  Certificate Authority       = lets_encrypt
-  DNS Provider                = enom
-  DNS Validation Instructions =
-  DNS Validation Hostname     =
-  DNS Validation Target       = example.com.5xzw.flydns.net
-  Source                      = fly
-  Created At                  = 0001-01-01T00:00:00Z
-  Status                      =
+# fly.toml app configuration file generated for davidfigueiredo-falling-breeze-4115 on 2025-03-14T00:27:00Z
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = 'davidfigueiredo-falling-breeze-4115'
+primary_region = 'cdg'
+
+[build]
+
+[http_service]
+  internal_port = 80
+  force_https = true
+  auto_stop_machines = 'stop'
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ['app']
+
+[[vm]]
+  memory = '1gb'
+  cpu_kind = 'shared'
+  cpus = 1

@@ -1,8 +1,9 @@
 <script setup>
+import ThreeDemo from '@/views/ThreeDemo.vue'
 </script>
 
 <template>
-    <div id="/" class="h-screen flex items-center justify-center">
-        <h1 class="text-3xl">Welcome to Home</h1>
+    <div id="/" class="h-screen">
+        <ThreeDemo />
     </div>
 </template>
