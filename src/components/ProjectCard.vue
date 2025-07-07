@@ -7,7 +7,7 @@ defineProps({
 });
 </script>
 <template>
-    <div class="h-screen flex flex-col items-center justify-center px-20">
+    <div class="flex flex-col items-center justify-center px-20">
       <img :src="project.media" width="500px"/>
     <h1 class="text-3xl">{{project.title}}</h1>
       <span>

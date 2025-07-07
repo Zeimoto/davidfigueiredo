@@ -1,0 +1,29 @@
+{
+  "jobs": [
+    {
+      "title": "Junior OutSystems Consultant",
+      "company": "UDDAN",
+      "location": "Lisbon, Portugal; Castelo Branco, Portugal; Remote",
+      "period": "Nov 2021 - Present",
+      "description": "",
+      "technologies": ["OutSystems Full-Stack Development", "Scrum", "Azure DevOps", "Jira", "Trello", "Python [pandas, numpy, FastAPI, spaCy, whisper]", "Superblocks", "PostgreSQL", "OracleDB"]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Freelance",
+      "location": "Madrid, Spain [Remote]",
+      "period": "Mar 2024 - Sep 2024",
+      "description": "Managed integrations and Deployment: Application used as intermediary between logistic operators and end users. Responsible for integrations, business logic and maintenance. Working with multiple logistic operators providers across Europe and South America.",
+      "technologies": ["OutSystems Full-Stack Development", "Scrum", "Python [pandas, numpy, FastAPI, spaCy, whisper]"]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Freelance",
+      "location": "Porto, Portugal [Remote]",
+      "period": "May 2024 - Present",
+      "description": "Technical Support and Deployment: AI-driven internal web app, used to accelerate image description for high-end retail department group, using Image-to-Text models and LLMs. Responsible for deployment integrations and support.",
+      "technologies": ["Ubuntu Server", "Flask", "Python [pandas, numpy, FastAPI, spaCy, whisper]"]
+    }
+  ]
+}
+

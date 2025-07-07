@@ -3,25 +3,25 @@
     {
       "title": "voicelead",
       "media": "/voicelead.gif",
-      "content": "",
+      "description": "",
       "link": "https://github.com/zeimoto/voicelead"
     },
     {
       "title": "spotify-notify",
       "media": "/spotify-notify.gif",
-      "content": "I'm sure most people have been through this dilema, if you can call it that.\n\n\nPicture this: You set up a subscription service with a group of friends or family to save on costs. You all agree on this, but since it was your idea you make the call and sign up for this service. Great! You can now take advantage of that service and share it with your friends. What's not to like?\n\n\n\n\n\nBut now comes the -tough- part. Having to ask for money to your pals. If you're like me then this is a weird thing to do. You don't want to be reaching out just to ask for money, but still, it's the fair thing to do. But if your friends are like most people, then they won't setup any reminder to pay you for this, and neither will you, so most times you'll forget about it, and so will they.\n\nThis is where this idea came in. I create a bot, impersonating me, to send automated responses and scheduled notifications into me and my friend's WhatsApp groupchat.\n\nYou must already have a WhatsApp account, since this app is essentially going to impersonate YOU. So be aware of that when trying this for yourself.\n\nMy scenario accounts for a single group, where the purpose is simply to send scheduled messages on predetermined days and times, and to reply to some commands by others in this group chat. These commands will help users to visualize their debt situation and when the next payment must be done.\n\nTo store this information, I opted to simply use a data.json file, inside the /data directory as a quick way to store all the information required, since it’s not that many.\n\nMy goal for this project was to be able to have the whole process integrated inside the app, including the payment method. The payment would be done using MBWay ( app used for payments and transfers, similar to Venmo), which allows for the receiver to request for money to people who use MBWay, so ideally next to the scheduled notifications there would be a outbound request for money to these users, in case they have due payments. And the same thing would be possible from the perspective of the senders, so if a user wanted to pay in advance they could, and that would liquidatey debt.",
+      "description": "I'm sure most people have been through this dilema, if you can call it that.\n\n\nPicture this: You set up a subscription service with a group of friends or family to save on costs. You all agree on this, but since it was your idea you make the call and sign up for this service. Great! You can now take advantage of that service and share it with your friends. What's not to like?\n\n\n\n\n\nBut now comes the -tough- part. Having to ask for money to your pals. If you're like me then this is a weird thing to do. You don't want to be reaching out just to ask for money, but still, it's the fair thing to do. But if your friends are like most people, then they won't setup any reminder to pay you for this, and neither will you, so most times you'll forget about it, and so will they.\n\nThis is where this idea came in. I create a bot, impersonating me, to send automated responses and scheduled notifications into me and my friend's WhatsApp groupchat.\n\nYou must already have a WhatsApp account, since this app is essentially going to impersonate YOU. So be aware of that when trying this for yourself.\n\nMy scenario accounts for a single group, where the purpose is simply to send scheduled messages on predetermined days and times, and to reply to some commands by others in this group chat. These commands will help users to visualize their debt situation and when the next payment must be done.\n\nTo store this information, I opted to simply use a data.json file, inside the /data directory as a quick way to store all the information required, since it’s not that many.\n\nMy goal for this project was to be able to have the whole process integrated inside the app, including the payment method. The payment would be done using MBWay ( app used for payments and transfers, similar to Venmo), which allows for the receiver to request for money to people who use MBWay, so ideally next to the scheduled notifications there would be a outbound request for money to these users, in case they have due payments. And the same thing would be possible from the perspective of the senders, so if a user wanted to pay in advance they could, and that would liquidatey debt.",
       "link": "https://github.com/zeimoto/spotify_notify"
     },
     {
       "title": "htmltable-to-csv",
       "media": "/htmlto_csv.gif",
-      "content": "",
+      "description": "",
       "link": "https://github.com/zeimoto/htmltable-to-csv"
     },
     {
       "title": "b64-pdf-merger",
       "media": "/b64_pdf_merger.gif",
-      "content": "",
+      "description": "",
       "link": "https://github.com/zeimoto/b64-pdf-merger"
     }
   ]

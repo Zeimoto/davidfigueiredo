@@ -55,13 +55,14 @@
 *::after {
   box-sizing: border-box;
   margin: 0;
+  padding: 20;
   font-weight: normal;
 }
 
 body {
   min-height: 100vh;
-  color: var(--color-text);
-  background: var(--color-background);
+  color: #f7f5c0;
+  background: #075b82;
   transition:
     color 0.5s,
     background-color 0.5s;
@@ -84,3 +85,26 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+canvas {
+  display:block;
+  background: transparent !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.three-liquid-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;        
+  pointer-events: none;
+  display: block;
+}
+
+

@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue';
-import ProjectCard from '@/components/ProjectCard.vue';
+import ItemCard from '@/components/ItemCard.vue';
 import projectsData from '@/assets/projects.json';
 
 const projects = ref(projectsData.projects);
@@ -9,6 +9,6 @@ const projects = ref(projectsData.projects);
 
 <template>
   <ul id="projects" v-for="project in projects" :key="project.title">
-    <ProjectCard :project="project"/>
+    <ItemCard :item="project"/>
   </ul>
 </template>
