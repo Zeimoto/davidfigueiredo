@@ -29,5 +29,9 @@ function onImageError(){
       @error="onImageError"
       />
       <div >{{item.description}}</div>
+      <div>Technologies:</div>
+      <ul v-for="technology in item.technologies">
+        <li>{{technology}}</li>
+      </ul>
     </div>
 </template>
