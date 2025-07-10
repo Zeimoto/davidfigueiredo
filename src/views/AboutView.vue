@@ -1,9 +1,9 @@
 <script setup></script>
 
 <template>
-  <div id="about" class="h-screen flex flex-col items-center justify-center">
-   <div class="bg-sky-900 border border-blue-950/50 px-4 py-2 rounded-lg shadow-2xl w-m opacity-95">
-    <h1 class="text-3xl">About Me</h1>
+  <div id="about" class="px-4 opacity-95">
+   <div class="project-card glass-content shadow-2xl rounded-lg">
+    <h1 class="text-4xl">About Me</h1>
       <br>
       Hi there! <br> My name’s David and I’m a software developer based in Portugal, and this is my little
     corner here on the Internet.

@@ -3,7 +3,6 @@ import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
 import ProjectsView from '../views/ProjectsView.vue'
 import ExperienceView from '../views/ExperienceView.vue'
-import ResumeView from '../views/ResumeView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -27,11 +26,6 @@ const router = createRouter({
       path: '/experience',
       name: 'experience',
       component: ExperienceView,
-    },
-    {
-      path: '/resume',
-      name: 'resume',
-      component: ResumeView
     },
   ],
 })

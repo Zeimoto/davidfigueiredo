@@ -107,4 +107,104 @@ canvas {
   display: block;
 }
 
+/* NAVBAR + FOOTER */
 
+.navbar{
+  padding: 4px 10px 4px 10px;
+}
+
+.footer{
+  padding: 10px 10px 4px 10px;
+}
+
+.navbar-item{
+  transform: translateZ(0);
+  transition-property: all;
+  transition-delay: 50ms;
+  transition-duration: 150ms;
+  transition-timing-function: ease-in-out;
+  border-radius: 0.5rem;
+}
+
+.navbar-item:hover {
+  color: rgba(209,213,219,0.5);
+}
+
+/* ABOUT */
+
+.about-card {
+  background-color: #0c4a6e;
+  padding: 4px 10px 4px 10px;
+  margin: 50px;
+}
+
+/* GLASS */
+
+.glass-content {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.01)
+  );
+  backdrop-filter: blur(50px) saturate(100%);
+  -webkit-backdrop-filter: blur(15px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.glass-navbar {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.05)
+  );
+  backdrop-filter: blur(15px) saturate(180%);
+  -webkit-backdrop-filter: blur(15px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+/* ITEM CONTENT */
+.item-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  height: 100%;
+}
+
+/* PROJECTS */ 
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 20px 20px 20px 20px;
+  gap: 24px;
+  grid-auto-rows: 1fr;
+}
+
+.project-card {
+  background-color: #0c4a6e;
+  padding: 4px 10px 4px 10px;
+  margin: 50px;
+}
+
+/* EXPERIENCES */
+.experience-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 20px 20px 20px 20px;
+  gap: 24px;
+  grid-auto-rows: 1fr;
+}
+
+.experience-card {
+  background-color: #0c4a6e;
+  padding: 4px 10px 4px 10px;
+  margin: 50px;
+}
